@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FirmaSQLite.firmasPage">
+    <ContentPage.Content>
+        <StackLayout Padding="20">
+                <Image x:Name="firmaIMG"  WidthRequest="300" />
+                <Label x:Name="nameFirma" HorizontalOptions="Center" FontSize="20" />
+            <Label x:Name="descFirma" HorizontalOptions="Center" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
