@@ -40,13 +40,7 @@ namespace FirmaSQLite
 
             byte[] reducedImage = data2;
 
-            string filePath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
-            // save the file into local storage
-
-            using (FileStream file = new FileStream(filePath, FileMode.Create, System.IO.FileAccess.Write))
-            {
-                image2.CopyTo(file);
-            }
+           
 
             var signature = new Firmas
             {
